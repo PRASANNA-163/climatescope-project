@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter auto checkpoints
+.ipynb_checkpoints/
+
+# Ignore Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Ignore raw data (too large, keep only cleaned)
+data/raw/
