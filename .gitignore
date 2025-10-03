@@ -14,3 +14,10 @@ kaggle.json
 
 # Ignore raw data (too large, keep only cleaned)
 data/raw/
+# Ignore data and database files
+*.csv
+*.zip
+*.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
